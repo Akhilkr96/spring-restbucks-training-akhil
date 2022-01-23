@@ -30,7 +30,7 @@ import org.springsource.restbucks.training.order.Order;
  */
 // TODO-01.00: ---- Enhance Orders with update and cancel links ----
 // TODO-01.01: Register ResourceProcessor to extend orders
-// @Component commented why?
+// @Component commented why?..
 class CoreOrderResourceProcessor implements ResourceProcessor<Resource<Order>> {
 
 	public static final String CANCEL_REL = "cancel";
